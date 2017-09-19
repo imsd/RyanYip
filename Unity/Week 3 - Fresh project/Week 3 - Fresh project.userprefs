@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scale.cs">
+    <Files>
+      <File FileName="Assets/keyboardgeneral.cs" Line="18" Column="4" />
+      <File FileName="Assets/colorbutton.cs" Line="18" Column="4" />
+      <File FileName="Assets/destroy.cs" Line="16" Column="3" />
+      <File FileName="Assets/scale.cs" Line="21" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
