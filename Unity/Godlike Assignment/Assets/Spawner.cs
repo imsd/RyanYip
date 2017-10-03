@@ -14,7 +14,7 @@ public class Spawner : MonoBehaviour {
 	
 	// Update is called once per frame
 	void SpawnThing () {
-		transform.position = new Vector3(-19 , 10, Random.Range(-15,15));
+		transform.position = new Vector3(Random.Range(-15,15) , 5, Random.Range(-15,15));
 		Instantiate (go, transform.position, Quaternion.identity);
 	}
 }
