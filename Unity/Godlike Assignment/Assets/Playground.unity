@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 444773383}
   - component: {fileID: 444773382}
   - component: {fileID: 444773387}
+  - component: {fileID: 444773388}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -255,6 +256,19 @@ MonoBehaviour:
   prefab: {fileID: 1272613832027014, guid: fddccf2694c9f47a794416e647de13af, type: 2}
   distance: 10
   power: 2000
+--- !u!114 &444773388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 444773381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef605ba0f9d94b1c9db980d8f01ada3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  folder: ScreenshotFolder
+  frameRate: 30
 --- !u!1 &1159727019
 GameObject:
   m_ObjectHideFlags: 0
