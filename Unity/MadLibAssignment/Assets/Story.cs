@@ -5,17 +5,29 @@ using UnityEngine;
 public class Story : MonoBehaviour {
 
 	public string[] Hero;
-	public string[] Sidekick;
-	public string[] Villian;
+	public string[] Mon;
+	public string[] Corp;
+	public string[] Item;
+
+	public Renderer rend;
 
 	// Use this for initialization
 	void Start () {
-		
-		string randHero = Random.Range (0, Hero.Length);
 
-		Debug.Log ("In a world filled with people who had the power to call themselves hero, " +
-		"one girl stood against the tide. " + Hero [randHero] + "had dreamed of becoming a hero. " + 
-		"But no one would recognize her because she was like 12, and a girl.");
+		rend = GetComponent<Renderer> ();
+
+		int randHero = Random.Range (0, Hero.Length);
+		int randCorp = Random.Range (0, Corp.Length);
+		int randItem = Random.Range (0, Item.Length);
+		int randMon = Random.Range (0, Mon.Length);
+
+		Debug.Log ("One day the " + Corp [randCorp] + " decided to fund an epic quest. " + 
+			"The quest would need someone to fetch a " +  Item [randItem] + " and use it to save the world from the " +
+			Mon [randMon] + ". Then " + Hero [randHero] + " appeared to claim the " + randItem +
+		" and went on to save the world.");
+		if (randHero == 0) {
+			rend.material.color = Color.blue;
+		}
 	}
 	
 	// Update is called once per frame
