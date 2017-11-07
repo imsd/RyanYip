@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657934, g: 0.4964136, b: 0.5748189, a: 1}
+  m_IndirectSpecularColor: {r: 0.44659358, g: 0.49642974, b: 0.574825, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -146,6 +146,9 @@ MonoBehaviour:
   Item:
   - Lord of Shotguns
   - Derp
+  cube: {fileID: 917078531}
+  Tina: {fileID: 2800000, guid: 824ce74e000a24f6580541f6cdd3551b, type: 3}
+  rend: {fileID: 0}
 --- !u!4 &333727031
 Transform:
   m_ObjectHideFlags: 0

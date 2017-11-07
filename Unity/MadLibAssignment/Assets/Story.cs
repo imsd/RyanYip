@@ -9,12 +9,14 @@ public class Story : MonoBehaviour {
 	public string[] Corp;
 	public string[] Item;
 
+	public GameObject cube;
+	public Texture Tina;
 	public Renderer rend;
 
 	// Use this for initialization
 	void Start () {
 
-		rend = GetComponent<Renderer> ();
+		rend = cube.GetComponent<Renderer> ();
 
 		int randHero = Random.Range (0, Hero.Length);
 		int randCorp = Random.Range (0, Corp.Length);
@@ -26,7 +28,7 @@ public class Story : MonoBehaviour {
 			Mon [randMon] + ". Then " + Hero [randHero] + " appeared to claim the " + randItem +
 		" and went on to save the world.");
 		if (randHero == 0) {
-			rend.material.color = Color.blue;
+			rend.material.mainTexture = Tina;
 		}
 	}
 	
