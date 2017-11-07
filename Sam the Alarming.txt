@@ -1,0 +1,19 @@
+{
+  "origin": "#name# I don't mean to alarm you but #event#.",
+  "event": [
+    "the bomb only has red wires",
+    "we're fighting Spaniards not Native Americans",
+    "you used the last of our ammunition",
+    "they launched the missle an hour ago",
+    "they have an attack chopper",
+    "a detatchment is pursuing us on foot",
+    "the pilot turned into a zombie"
+  ],
+  "name": [
+    "Anthony",
+    "Lieutenant",
+    "Guys",
+    "My lord",
+    "Dude"
+  ]
+}
