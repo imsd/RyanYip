@@ -51,6 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GetWeather.cs" />
+     <Compile Include="Assets\JSON\JSONObject.cs" />
+     <Compile Include="Assets\JSON\JSONTemplates.cs" />
+     <Compile Include="Assets\JSON\VectorTemplates.cs" />
+     <Compile Include="Assets\Rain.cs" />
      <Compile Include="Assets\scripts\JsonHelper.cs" />
      <Compile Include="Assets\scripts\TwitterHelper.cs" />
      <Compile Include="Assets\scripts\twitterJson.cs" />
@@ -59,6 +64,7 @@
      <Compile Include="Assets\scripts\TwitterStream.cs" />
      <Compile Include="Assets\scripts\TwitterStreamType.cs" />
      <Compile Include="Assets\TweetSearch.cs" />
+     <None Include="Assets\JSON\readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

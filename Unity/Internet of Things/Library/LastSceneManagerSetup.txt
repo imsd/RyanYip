@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Text.unity
+- path: Assets/Weather1.unity
   isLoaded: 1
   isActive: 1
