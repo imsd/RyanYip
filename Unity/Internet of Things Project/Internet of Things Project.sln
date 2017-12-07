@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internet of Things Project", "Assembly-CSharp.csproj", "{563456EC-0835-D320-A5B8-6BB9A2068B49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internet of Things Project", "Assembly-CSharp-Editor.csproj", "{D21CB7BE-5494-FDAC-B9CF-C473997A3165}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{563456EC-0835-D320-A5B8-6BB9A2068B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{563456EC-0835-D320-A5B8-6BB9A2068B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{563456EC-0835-D320-A5B8-6BB9A2068B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21CB7BE-5494-FDAC-B9CF-C473997A3165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21CB7BE-5494-FDAC-B9CF-C473997A3165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21CB7BE-5494-FDAC-B9CF-C473997A3165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21CB7BE-5494-FDAC-B9CF-C473997A3165}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

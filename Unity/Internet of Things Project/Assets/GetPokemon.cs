@@ -6,6 +6,7 @@ public class GetPokemon : MonoBehaviour {
 
 	private string baseUrl = "https://pokeapi.co/api/v2/pokemon/";
 	public string pokemon = "bulbasaur";
+	public string imgUrl = "";
 
 	IEnumerator Start() {
 
@@ -58,6 +59,6 @@ public class GetPokemon : MonoBehaviour {
 		JSONObject spriteDetails = tempData["sprites"];
 		JSONObject image = spriteDetails["front_default"];
 		Debug.Log (image);
-
+		imgUrl = image;
 	}
 }
