@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43694237, g: 0.4846083, b: 0.5648594, a: 1}
+  m_IndirectSpecularColor: {r: 0.44421276, g: 0.49365205, b: 0.57304347, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -216,8 +216,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93b709f711c424498a94abe2d0d16a85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pokemon: necrozma
+  pokemon: blaziken
   imgUrl: 
+  hp: 0
+  att: 0
+  def: 0
+  satt: 0
+  sdef: 0
+  spd: 0
+  tp: 
+  tp1: 
 --- !u!1 &275836412
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,13 +627,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1518605610}
-  m_LocalRotation: {x: 0.7155472, y: -0.1741643, z: 0.12938657, w: 0.6640167}
-  m_LocalPosition: {x: -1.32, y: 17.8, z: 2.3}
+  m_LocalRotation: {x: 0.72526455, y: -0.33359277, z: -0.052344725, w: 0.5999727}
+  m_LocalPosition: {x: 26.1, y: 14.48, z: 2.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 84.466, y: -151.42001, z: -126.602005}
+  m_LocalEulerAnglesHint: {x: 56.653004, y: -119.967, z: -96.004005}
 --- !u!1 &1522328846
 GameObject:
   m_ObjectHideFlags: 0

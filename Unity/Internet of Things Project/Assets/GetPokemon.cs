@@ -45,33 +45,33 @@ public class GetPokemon : MonoBehaviour {
 		// to get even more specific
 		JSONObject baseSpeed = speedDetails["base_stat"];
 		Debug.Log (baseSpeed);
-		spd = baseSpeed;
+
 
 
 		JSONObject specialdefenseDetails = statsDetails[1];
 		JSONObject baseSpecialDefense = specialdefenseDetails["base_stat"];
 		Debug.Log (baseSpecialDefense);
-		sdef = baseSpecialDefense;
+		sdef = int.Parse (baseSpecialDefense.ToString ());
 
 		JSONObject specialattackDetails = statsDetails[2];
 		JSONObject baseSpecialAttack = specialattackDetails["base_stat"];
 		Debug.Log (baseSpecialAttack);
-		satt = baseSpecialAttack;
+		satt = int.Parse (baseSpecialAttack.ToString ());
 
 		JSONObject defenseDetails = statsDetails[3];
 		JSONObject baseDefense = defenseDetails["base_stat"];
 		Debug.Log (baseDefense);
-		def = baseDefense;
+		def = int.Parse (baseDefense.ToString ());
 
 		JSONObject attackDetails = statsDetails[4];
 		JSONObject baseAttack = attackDetails["base_stat"];
 		Debug.Log (baseAttack);
-		att = baseAttack;
+		att = int.Parse (baseAttack.ToString ());
 
 		JSONObject hpDetails = statsDetails[5];
 		JSONObject baseHp = hpDetails["base_stat"];
 		Debug.Log (baseHp);
-		hp = baseHp;
+		hp = int.Parse (baseHp.ToString ());
 
 		// get the sprite
 		JSONObject spriteDetails = tempData["sprites"];
@@ -103,7 +103,7 @@ public class GetPokemon : MonoBehaviour {
 		JSONObject baseType = type["type"];
 		JSONObject typeName = baseType["name"];
 		Debug.Log (typeName);
-		tp = typeName;
+		tp = typeName.ToString ();
 
 		if (typeDetails [1] != null)
 		{
@@ -111,7 +111,7 @@ public class GetPokemon : MonoBehaviour {
 			JSONObject abaseType = atype ["type"];
 			JSONObject atypeName = abaseType ["name"];
 			Debug.Log (atypeName);
-			tp1 = atypeName;
+			tp1 = atypeName.ToString ();
 		}
 	}
 }
